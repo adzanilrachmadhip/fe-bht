@@ -69,13 +69,13 @@ p.thick {
 	line-height:px;
 }
 .logobht_telu{ 	
-  width:330px;
+  width:300px;
   height:110px;
   position:relative;
   left: 900px;
   top:-10px;
   background-repeat:no-repeat;
-  background-size:cover;
+  background-size:contain;
 }
 a {
   color: #1e1e1e;
