@@ -1,879 +1,1257 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
+  <title>Biomedical & Healthcare Technology</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>COE BHT</title>
-  <meta content="" name="description">
   <meta content="" name="keywords">
+  <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="img/logo_bht.png" rel="icon">
+  <link href="img/logo_bht.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Titan+One&display=swap" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Medilab
-  * Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
-  * Updated: Mar 17 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
-<body>
+<body id="page-top">
 
-  <!-- ======= Top Bar ======= -->
-  <div id="topbar" class="d-flex align-items-center fixed-top">
-    <!-- <div class="container d-flex justify-content-between">
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">contact@example.com</a>
-        <i class="bi bi-phone"></i> +1 5589 55488 55
-      </div>
-      <div class="d-none d-lg-flex social-links align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-      </div>
-    </div> -->
-  </div>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center">
-      <img src="/assets/img/bht.webp" width="105" height="100">
-      <img src="assets/img/bht-text.webp" width="220" height="50">
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">News</a></li>
-          <li><a class="nav-link scrollto" href="#departments">Research</a></li>
-          <li><a class="nav-link scrollto" href="#doctors">Articles</a></li>
-          <li><a class="nav-link scrollto" href="#doctors">Member</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-         
-         <!-- Dropdown Menu -->
-          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
-          
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-      <img class="ms-5" src="assets/img/tel-U.png" width="200" height="65">
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
+  <!--/ Nav Star /-->
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-      <h1>Welcome to COE BHT</h1>
-      <h2>Center of Excellence Biomedical and Healthcare Technology</h2>
-      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+      <div  class="logobht_top" style="background-image:url(img/bht.png);"></div>
+      <div  class="logobht_telu" style="background-image:url(img/telu.png);"></div>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+      </button>
+      <div class="logobht_top home navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#tentang_bht">Tentang BHT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#pelatihan_seminar">Pelatihan & Seminar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#penelitian">Penelitian</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#kerja_sama">Kerjasama</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#pengmas">Pengmas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#staf">Staf</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </section><!-- End Hero -->
+  </nav>
+  <!--/ Nav End /-->
 
-  <main id="main">
-
-    <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-4 d-flex align-items-stretch">
-            
-          </div>
-        </div>
-
-      </div>
-    </section>
-    <!-- End Why Us Section -->
-
-    <section>
-
-    </section>
-    
-    <!-- ======= Counts Section ======= -->
-    <!-- <section id="counts" class="counts">
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="fas fa-user-md"></i>
-              <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Doctors</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-            <div class="count-box">
-              <i class="far fa-hospital"></i>
-              <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Departments</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="fas fa-flask"></i>
-              <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Research Labs</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="fas fa-award"></i>
-              <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Awards</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section> -->
-    <!-- End Counts Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="about" class="services">
-      <div class="container">
-
-        <div class="row">
-        
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-md-3"><img src="assets/img/bht.webp" alt=""></div>
-              <div class="col-md-3">
-                <p class="text-left">
-                        Name : Suto Setyadi, S.T., M.T.                       
-                        <br>
-                        Profile  : IT Hardware and Software  <br>
-                        Email : sutosetyadi22@gmail.com<br>
-                        Phone : 0822 2698 4456 <br>
-                        Blood Group <br>
-                        Gender 
-
-                </p>
-              </div>
-            </div>
-            
-          </div>
-          <div class="col-md-6">
-            <div class="section-title">
-              <h2>About BHT</h2>
-            </div>
-            <p class="text-left">Saya adalah orang yang selalu aktif. Saya memiliki <br>
-              moto hidup untuk terus belajar dan memiliki pandangan <br>
-              bahwa everything is possible, if we have responsibility. <br>
-              Saya menyukai dunia pemrograman dan selalu tertarik <br>
-              untuk belajar hal - hal baru terkait pemrograman. <br><br>
-
-              Saya adalah lulusan S2 Teknik Elektro yang kuat pada <br>
-              pemrograman python, C/C++, dan AI (Machine <br>
-              Learning & Deep Learning). Selain itu saya juga <br>
-              memahami JavaScript, HTML, dan Kotlin untuk <br>
-              keperluan User Interface ataupun GUI. <br><br>
-
-              Saya memiliki pengalaman bekerja di Bandung Techno <br>
-              Park (BTP) selama 2 tahun yang berlokasi di kawasan <br>
-              Telkom University, Bandung, Jawa Barat. Saya berada <br>
-              Telkom University, Bandung, Jawa Barat. Saya berada <br>
-              pada divisi hardware dan software, yang memiliki tugas <br>
-              kusus untuk Computer Vision, App Android, Web App, <br>
-              IOT (Internet of Things), Pemrograman Robotik, dan <br>
-              Trainer Pemrograman GoExpert. <br> <br>
-
-              Saya juga memiliki pengalaman magang di WITEL <br>
-              Pekalongan sebagai support routing IndiHome untuk <br>
-              membantu Telkom Akses. Magang di Candra Apple <br>
-              Solution sebagai teknisi servis HP dan Laptop Apple. <br><br>
-              
-              Selain itu, saya memiliki pengalaman organisasi <br>
-              sebagai Ketua PMR-OSIS SMP N 03 Ulujami (2012), <br>
-              Bendahara OSIS SMA N 01 Comal (2014), Ketua PMR, <br>
-            </p>
-          </div>
-        </div>
-
-        <div class="section-title">
-        
-    </section><!-- End Services Section -->
-
-    <!-- ======= Appointment Section ======= -->
-    <section id="archivement" class="appointment section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>ARCHIVEMENT</h2>
-          <p>Berikut pencapaian yang pernah saya lakukan:</p>
-        </div>
-
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="assets/img/card1.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="assets/img/card2.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="assets/img/card3.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Appointment Section -->
-
-    <!-- ======= projects Section ======= -->
-    <section id="projects" class="appointment section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>PROJECTS</h2>
-          <p>Berikut proyek yang pernah saya buat:</p>
-        </div>
-
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="assets/img/pro1.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="assets/img/pro2.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="assets/img/pro3.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Appointment Section -->
-
-    <!-- ======= Departments Section ======= -->
-    <section id="departments" class="departments">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Departments</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row gy-4">
-          <div class="col-lg-3">
-            <ul class="nav nav-tabs flex-column">
-              <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Cardiology</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Neurology</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Hepatology</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Pediatrics</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Eye Care</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-9">
-            <div class="tab-content">
-              <div class="tab-pane active show" id="tab-1">
-                <div class="row gy-4">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Cardiology</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-1.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-2">
-                <div class="row gy-4">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Et blanditiis nemo veritatis excepturi</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-2.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-3">
-                <div class="row gy-4">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
-                    <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
-                    <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-3.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-4">
-                <div class="row gy-4">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h3>
-                    <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
-                    <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-4.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-5">
-                <div class="row gy-4">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
-                    <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
-                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-5.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Departments Section -->
-
-    <!-- ======= Doctors Section ======= -->
-    <!-- <section id="doctors" class="doctors">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Doctors</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-6">
-            <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/doctors/doctors-1.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Medical Officer</span>
-                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mt-4 mt-lg-0">
-            <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/doctors/doctors-2.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Anesthesiologist</span>
-                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mt-4">
-            <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/doctors/doctors-3.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>Cardiology</span>
-                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mt-4">
-            <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/doctors/doctors-4.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Neurosurgeon</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section> -->
-    <!-- End Doctors Section -->
-
-    <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Frequently Asked Questions</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="faq-list">
-          <ul>
-            <li data-aos="fade-up">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-                <p>
-                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="400">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
-                </p>
-              </div>
-            </li>
-
-          </ul>
-        </div>
-
-      </div>
-    </section><!-- End Frequently Asked Questions Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
-      <div class="container">
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                  <h3>Saul Goodman</h3>
-                  <h4>Ceo &amp; Founder</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                  <h3>John Larson</h3>
-                  <h4>Entrepreneur</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
-
-    <!-- ======= Gallery Section ======= -->
-    <section id="articles" class="gallery">
-      <div class="container p-5">
-
-        <div class="section-title">
-          <h2>Articles</h2>
-          <p>Berikut adalah artikel yang pernah saya buat</p>
+  <!--/ Intro home Star /-->
+  <div id="home" class="intro route bg-image" style="background-image: url(img/bg.png)">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <h1 class="intro-title mb-4">Center of Excellence</h1>
+          <h1 class="intro-title mb-4">BIOMEDICAL & HEALTHCARE TECHNOLOGY</h1>
+          <h1 class="intro-title mb-4">TELKOM UNIVERSITY</h1>
+          <p class="intro-subtitle"><span class="text-slider-items">Biomedical Engineering</span><strong class="text-slider"></strong></p>
+          <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#tentang_bht" role="button">Learn More</a></p>
         </div>
       </div>
-    <div class="contaoner p-5">  
+    </div>
+  </div>
+  <!--/ Intro home End /-->
+
+  <!--/ Intro tentang Star /-->
+  <section id="tentang_bht" class="about-mf sect-pt4 route">
+    <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="assets/img/pro1.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="assets/img/pro2.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="assets/img/pro3.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>  
-      </div>
-    </section><!-- End Gallery Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-      </div>
-
-      <div>
-        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24293.671859768354!2d107.62683250010966!3d-6.980693425115194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e9adf177bf8d%3A0x437398556f9fa03!2sTelkom%20University!5e0!3m2!1sen!2sid!4v1714011578681!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-
-      <div class="container">
-        <div class="row mt-5">
-
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>info@example.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+        <div class="col-sm-12">
+          <div class="box-shadow-ful">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-sm-6 col-md-5">
+                    <div class="about-img">
+                      <img src="img/logo_bht.png" class="img-fluid rounded b-shadow-a" alt="">
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-7">
+                    <div class="about-info">
+                      <p><span class="title-s">Nama: </span> <span>Biomedical & Healthcare Technology</span></p>
+                      <p><span class="title-s">Profil: </span> <span>Center of Excellence (CoE) Telkom University</span></p>
+                      <p><span class="title-s">Ketua: </span> <span>Ir. Miftadi Sudjai, M,Sc., Ph.D.</span></p>
+                      <p><span class="title-s">Email: </span> <span>coe.bht@gmail.com</span></p>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                <div class="about-info">
+                  <p class="title-s">Focus Area:</p>
+                  <p class="lead" align="justify">  Digital Health, Social and Wellness</p>
+                </div>
+                <div class="about-info">
+                  <p class="title-s">Sub Focus Area:</p>
+                  <p class="lead" align="justify"> Intelligent Biomedical Engineering,Digital Healthcare System,Psychological Well-being.</p>
+                </div>
+                <div class="about-info">
+                  <p class="title-s">Kepakaran:</p>
+                  <p class="lead" align="justify"> Biomedical Instrumentations, Innovative therapeutic design, ICT for Healthcare solutions, Techno-economic analysis of healthcare technology, 
+                    Social engineering for health promotions, Social & psychological wellbeing engineering</p>
                 </div>
               </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              <div class="col-md-6">
+                <div class="about-me pt-4 pt-md-0">
+                  <div class="title-box-2">
+                    <h3 class="title-a", style="color:rgba(0, 120.00000044703484, 255, 1);">
+                      TENTANG BHT
+                    </h3>
+                    <p class="lead thick" align="justify">
+                      Berikut informasi seputar Center of Excellence (CoE) Telkom University:
+                    </p>
+                  </div>
+                  <div>
+                    <p class="lead" align="justify">
+                      CoE ini akan fokus pada riset dan inovasi di bidang rekayasa biomedis
+                      dan teknologi layanan kesehatan,dengan menekankan pada aspek socio-economic dan psychological wellbeing pasien atau masyarakat. 
+                    </p>
+                    <p class="lead" align="justify">
+                      
+                      Riset dasar dan terapan, serta inovasi di bidang tersebut akan dilakukan secara kolaboratif dengan berbagai stakeholder di bidang Kesehatan
+                      seperti dengan Fakultas Kedokteran & Kesehatan Universitas DN/LN (Academic); Industri ALKES, Rumah sakit, Klinik dll (Business); Kemenkes, 
+                      Pemda, dll (Government); dan Asosiasi Profesi Kedokteran & Kesehatan (Society).
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-
+            </div>
           </div>
-
         </div>
-
       </div>
-    </section><!-- End Contact Section -->
+    </div>
+  </section>
+  <!--/ Intro tentang End /-->
 
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-
-    <div class="footer-top">
+  <!--/ Intro pelatihan_seminar Star /-->
+  <section id="pelatihan_seminar" class="about-mf sect-pt4 route">
       <div class="container">
         <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Medilab</h3>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
+          <div class="col-sm-12">
+            <div class="box-shadow-full2">
+              <div class="title-box-2">
+                <h3 class="title-a" style="color:rgb(255, 255, 255);">
+                  PELATIHAN & SEMINAR
+                </h3>
+                <p class="lead thick">
+                  Berikut informasi pelatihan & seminar yang dilaksanakan oleh CoE Biomedical & Healthcare Technology Telkom University:
+                </p>
+              </div>
+              <div class="row scroll1">
+                <div class="col-md-4">
+                  <div class="card card-blog">
+                    <div class="card-img">
+                      <a href="img/poster seminar.png" data-lightbox="gallery-mf"><img src="img/poster seminar.png" alt="" class="img-fluid"></a>
+                    </div>
+                    <h3 class="card-title">Seminar Nasional Biomedical & Healthcare Technology</h3>
+                    <p class="card-title pt-3"><a class="btn btn-primary btn js-scroll px-4" href="https://bit.ly/DaftarSeminarNasional2024" role="button">Registrasi</a></p>
+                    <div class="card-footer">
+                      <div class="post-author">
+                        <a href="#">
+                          <img src="img/s.jpeg" alt="" class="avatar rounded-circle">
+                          <span class="author">Suto Setiyadi</span>
+                        </a>
+                      </div>
+                      <div class="post-date">
+                        <span class="ion-ios-clock-outline"></span> 20 Mei. 2024
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+        </div>
+      </div>
+  </section>
+  <!--/ Intro pelatihan_seminar End /-->
 
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
+  <!--/ Section penelitian Star /-->
+  <section id="penelitian" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="title-box-2">
+              <h3 class="title-a" style="color:rgba(0, 120.00000044703484, 255, 1);">
+                PENELITIAN
+              </h3>
+              <p class="lead thick">
+                Berikut informasi penelitian yang dilaksanakan oleh CoE Biomedical & Healthcare Technology Telkom University:
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card card-blog card-body1">
+                  <div class="card-body1">
+                    <div class="card-footer">
+                      <h3 class="card-title">Inisiasi Branding dan Blueprint Konsep Paket Wisata di Desa Laksana Kecamatan Ibun Kabupaten Bandung.</h3>
+                    </div>
+                    <div class="about-info">
+                      <p><span class="title-s">Funder: </span> <span>Matching Fund Kedaireka RistekDikti</span></p>
+                      <p><span class="title-s">Fund  : </span> <span>Rp 300.000.000</span></p>
+                      <p><span class="title-s">Skema : </span> <span>Dalam Negeri</span></p>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <div class="post-author">
+                      <a href="#">
+                        <img src="img/s.jpeg" alt="" class="avatar rounded-circle">
+                        <span class="author">Suto Setiyadi</span>
+                      </a>
+                    </div>
+                    <div class="post-date">
+                      <span class="ion-ios-clock-outline"></span> 20 Mei. 2024
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card card-blog">
+                  <div class="card-body1">
+                    <div class="card-footer">
+                      <h3 class="card-title">Fabrikasi Wearable Device Untuk Prediksi dan Prevensi Jatuh Pada Lansia Sebagai Upaya Solutif dalam Memasuki Era Ageing Population di Indonesia.</h3>
+                    </div>
+                    <div class="about-info">
+                      <p><span class="title-s">Funder: </span> <span>Matching Fund Kedaireka RistekDikti</span></p>
+                      <p><span class="title-s">Fund  : </span> <span>Rp 888.938.000</span></p>
+                      <p><span class="title-s">Skema : </span> <span>Dalam Negeri</span></p>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <div class="post-author">
+                      <a href="#">
+                        <img src="img/s.jpeg" alt="" class="avatar rounded-circle">
+                        <span class="author">Suto Setiyadi</span>
+                      </a>
+                    </div>
+                    <div class="post-date">
+                      <span class="ion-ios-clock-outline"></span> 20 Mei. 2024
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card card-blog">
+                  <div class="card-body1">
+                    <div class="card-footer">
+                      <h3 class="card-title">Perangkat e-GCMS v.4.0 untuk Balita dan Program Gizi untuk Ibu Hamil dan Menyusui Sebagai Upaya Mensukseskan Stranas Percepatan Pencegahan Sunting 2018-2024.</h3>
+                    </div>
+                    <div class="about-info">
+                      <p><span class="title-s">Funder: </span> <span>Matching Fund Kedaireka RistekDikti</span></p>
+                      <p><span class="title-s">Fund  : </span> <span>Rp 1.161.441.000</span></p>
+                      <p><span class="title-s">Skema : </span> <span>Dalam Negeri</span></p>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <div class="post-author">
+                      <a href="#">
+                        <img src="img/s.jpeg" alt="" class="avatar rounded-circle">
+                        <span class="author">Suto Setiyadi</span>
+                      </a>
+                    </div>
+                    <div class="post-date">
+                      <span class="ion-ios-clock-outline"></span> 20 Mei. 2024
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
-
         </div>
       </div>
     </div>
+  </section>
+  <!--/ Intro penelitian End /-->
 
-    <div class="container d-md-flex py-4">
+  <!--/ Section kerja_sama Star /-->
+  <section id="kerja_sama" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full1">
+            <div class="title-box-2">
+              <h3 class="title-a" style="color:rgb(255, 255, 255);">
+                KERJA SAMA
+              </h3>
+              <p class="lead thick">
+                Berikut informasi kerja sama yang dilaksanakan oleh CoE Biomedical & Healthcare Technology Telkom University:
+              </p>
+            </div>
+            <div class="row scroll">
+              <div class="col-md-4">
+                <div class="card card-blog">
+                  <div class="card-body">
+                    <div class="card-category">
+                      <h3 class="card-title" style="color:rgb(255, 255, 255);">Status Aktif</a></h3>
+                    </div>
+                    <div class="card-footer">
+                      <h3 class="card-title">Tide Eye - AI/IoT-powered Airborne System for Monitoring Water Level and Tidal Floods in North Coast of Central Java.</h3>
+                    </div>
+                    <div class="about-info">
+                      <p><span class="title-s">Funder: </span> <span>KONEKSI-DFAT</span></p>
+                      <p><span class="title-s">Skema: </span> <span>Kolaboratif Riset Indonesia-Australia</span></p>
+                      <p><span class="title-s">Fund: </span> <span>A$ 350,000.</span></p>
+                      <p><span class="title-s">Team: </span></p>
+                      <p>Le Chung Tran (Team Leader-Australia), dll; Miftadi S (Co-Team Leader-Indonesia); A. Adya P (Member), Asep Suhendi (member), Erna Sri Sugesti (Member), dll.</p>
+                      <div class="card-category">
+                        <h3 class="card-title" style="color:rgb(255, 255, 255); font-size: 18px;">Kolaborasi Luar Negeri (LN)</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <div class="post-author">
+                      <a href="#">
+                        <img src="img/s.jpeg" alt="" class="avatar rounded-circle">
+                        <span class="author">Suto Setiyadi</span>
+                      </a>
+                    </div>
+                    <div class="post-date">
+                      <span class="ion-ios-clock-outline"></span> 20 Mei. 2024
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card card-blog">
+                  <div class="card-body">
+                    <div class="card-category">
+                      <h3 class="card-title" style="color:rgb(255, 255, 255);">Status Aktif</a></h3>
+                    </div>
+                    <div class="card-footer">
+                      <h3 class="card-title" align="Center">Pengolahan Sinyal EEG Untuk Pengujian Cogni've Bias Dan Ihnhibitory Control Pada Pemain Game Online.</h3>
+                    </div>
+                    <div class="about-info">
+                      <p><span class="title-s">Funder: </span> <span>Telkom University</span></p>
+                      <p><span class="title-s">Skema: </span> <span>Penelitian Kolaborasi Dalam Negeri</span></p>
+                      <p><span class="title-s">Fund: </span> <span>Rp 14.000.000</span></p>
+                      <p><span class="title-s">Team: </span></p>
+                      <p>Inung Wijayanto, Sofia Sa'idah, Sugondo Hadiyoso, Anggunmeka Luhur Prasasti.</p>
+                      <div class="card-category">
+                        <h3 class="card-title" style="color:rgb(255, 255, 255); font-size: 18px;">Kolaborasi Dalam Negeri (DN)</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <div class="post-author">
+                      <a href="#">
+                        <img src="img/s.jpeg" alt="" class="avatar rounded-circle">
+                        <span class="author">Suto Setiyadi</span>
+                      </a>
+                    </div>
+                    <div class="post-date">
+                      <span class="ion-ios-clock-outline"></span> 20 Mei. 2024
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card card-blog">
+                  <div class="card-body">
+                    <div class="card-category">
+                      <h3 class="card-title" style="color:rgb(255, 255, 255);">Status Submit</a></h3>
+                    </div>
+                    <div class="card-footer">
+                     <h3 class="card-title">An Innovative System of Fall Risk Mitigation in the Elderly to Improve Their Life Expectancy.</h3>
+                    </div>                   
+                    <div class="about-info">
+                      <p><span class="title-s">Funder: </span><span>KONEKSI-Digital T.</span></p>
+                      <p><span class="title-s">Skema: </span><span>Kolaboratif Riset Indonesia-Australia</span></p>
+                      <p><span class="title-s">Fund: </span><span>A$ 300,000.</span></p>
+                      <p><span class="title-s">Team: </span></p>
+                      <p>Husneni Mukhtar (Ketua Indonesia); Willy AC (Anggota Indonesia); Wahmisari Priharti (Anggota Indonesia); Hesty Susanti (Anggota Indonesia); Dien Rahmawati (Anggota Indonesia); 
+                        Prof. Lam (PI Australia); Than Le Hoang (Member Aus).</p>
+                      <div class="card-category">
+                        <h3 class="card-title" style="color:rgb(255, 255, 255); font-size: 18px;">Kolaborasi Luar Negeri (LN)</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <div class="post-author">
+                      <a href="#">
+                        <img src="img/s.jpeg" alt="" class="avatar rounded-circle">
+                        <span class="author">Suto Setiyadi</span>
+                      </a>
+                    </div>
+                    <div class="post-date">
+                      <span class="ion-ios-clock-outline"></span> 20 Mei. 2024
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card card-blog">
+                  <div class="card-body">
+                    <div class="card-category">
+                      <h3 class="card-title" style="color:rgb(255, 255, 255);">Status Submit</a></h3>
+                    </div>
+                    <div class="card-footer">
+                      <h3 class="card-title">BIT-EMOS: Sistem Pemantauan Kesehatan Lanjut Usia dengan Dukungan Metode Deteksi Penyusup Watchdog dan Penginderaan Kompresif pada Jaringan IoT.</h3>
+                    </div>
+                    <div class="about-info">
+                      <p><span class="title-s">Funder: </span> <span>DRTPM</span></p>
+                      <p><span class="title-s">Skema: </span> <span>Penelitian Terapan, Kerjasama Luar Negeri</span></p>
+                      <p><span class="title-s">Fund: </span> <span>Rp 459.088.000</span></p>
+                      <p><span class="title-s">Team: </span></p>
+                      <p>Ida Wahidah (Ketua); Sofia Naning (Anggota); Iman Hedi (Anggota); Danu Dwi (Anggota), Hasbi A. Shiddieqy (Anggota), Nurul Muazzah A. Latiff (Anggota, UTM).</p>
+                      <div class="card-category">
+                        <h3 class="card-title" style="color:rgb(255, 255, 255); font-size: 18px;">Kolaborasi Luar Negeri (LN)</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <div class="post-author">
+                      <a href="#">
+                        <img src="img/s.jpeg" alt="" class="avatar rounded-circle">
+                        <span class="author">Suto Setiyadi</span>
+                      </a>
+                    </div>
+                    <div class="post-date">
+                      <span class="ion-ios-clock-outline"></span> 20 Mei. 2024
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card card-blog">
+                  <div class="card-body">
+                    <div class="card-category">
+                      <h3 class="card-title" style="color:rgb(255, 255, 255);">Status Submit</a></h3>
+                    </div>
+                    <div class="card-footer">
+                      <h3 class="card-title">PLAN : Poertable Low-cost AI-guided Tool for Assistive Navigation of Vision-impaired People.</h3>
+                    </div>
+                    <div class="about-info">
+                      <p><span class="title-s">Funder: </span> <span>KONEKSI-Digital T.</span></p>
+                      <p><span class="title-s">Skema: </span> <span>Kolaboratif Riset Indonesia-Australia</span></p>
+                      <p><span class="title-s">Fund: </span> <span>A$ 280,000</span></p>
+                      <p><span class="title-s">Team: </span></p>
+                      <p>Son Lam Phung (Team Leader Australia); Thanh Le Hoang (Member Australia); Husneni Mukhtar (Co-Team Leader Indonesia); Willy Anugrah Cahyadi (Member Indonesia) ; Dien Rahmawati (Member Indonesia).</p>
+                      <div class="card-category">
+                        <h3 class="card-title" style="color:rgb(255, 255, 255); font-size: 18px;">Kolaborasi Luar Negeri (LN)</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <div class="post-author">
+                      <a href="#">
+                        <img src="img/s.jpeg" alt="" class="avatar rounded-circle">
+                        <span class="author">Suto Setiyadi</span>
+                      </a>
+                    </div>
+                    <div class="post-date">
+                      <span class="ion-ios-clock-outline"></span> 20 Mei. 2024
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card card-blog">
+                  <div class="card-body">
+                    <div class="card-category">
+                      <h3 class="card-title" style="color:rgb(255, 255, 255);">Status Aktif</a></h3>
+                    </div>
+                    <div class="card-footer">
+                      <h3 class="card-title">Perancangan Mini Komputer Berbasis Rockchip Dilengkapi AI Virtual Assistant Untuk Aplikasi Smart Room Management.</h3>
+                    </div>
+                    <div class="about-info">
+                      <p><span class="title-s">Funder: </span> <span>Telkom University</span></p>
+                      <p><span class="title-s">Skema: </span> <span>Penelitian Kolaborasi Dalam Negeri</span></p>
+                      <p><span class="title-s">Fund: </span> <span>Rp 15.000.000</span></p>
+                      <p><span class="title-s">Team: </span></p>
+                      <p>Willy AC (Ketua); Hesty S (Anggota), Husneni M (Anggota).</p>
+                      <div class="card-category">
+                        <h3 class="card-title" style="color:rgb(255, 255, 255); font-size: 18px;">Kolaborasi Dalam Negeri (DN)</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <div class="post-author">
+                      <a href="#">
+                        <img src="img/s.jpeg" alt="" class="avatar rounded-circle">
+                        <span class="author">Suto Setiyadi</span>
+                      </a>
+                    </div>
+                    <div class="post-date">
+                      <span class="ion-ios-clock-outline"></span> 20 Mei. 2024
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <!--/ Intro kerja_sama End /-->
 
-      <div class="me-md-auto text-center text-md-start">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Medilab</span></strong>. All Rights Reserved
+  <!--/ Section pengmas End /-->
+  <section id="pengmas" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="title-box-2">
+              <h3 class="title-a" style="color:rgba(0, 120.00000044703484, 255, 1);">
+                PENGABDIAN MASYARAKAT
+              </h3>
+              <p class="lead thick">
+                Berikut informasi pengabdian masyarakat yang dilaksanakan oleh CoE Biomedical & Healthcare Technology Telkom University:
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card card-blog">
+                  <div class="card-body1">
+                    <div class="card-footer">
+                      <h3 class="card-title">Inisiasi Branding dan Blueprint Konsep Paket Wisata di Desa Laksana Kecamatan Ibun Kabupaten Bandung.</h3>
+                    </div>
+                    <div class="about-info">
+                      <p><span class="title-s">Funder: </span> <span>PPM Tel-U Skema CSE</span></p>
+                      <p><span class="title-s">Fund  : </span> <span>Rp 12.000.000</span></p>
+                      <p><span class="title-s">Year : </span> <span>2020</span></p>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <div class="post-author">
+                      <a href="#">
+                        <img src="img/s.jpeg" alt="" class="avatar rounded-circle">
+                        <span class="author">Suto Setiyadi</span>
+                      </a>
+                    </div>
+                    <div class="post-date">
+                      <span class="ion-ios-clock-outline"></span> 20 Mei. 2024
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card card-blog">
+                  <div class="card-body1">
+                    <div class="card-footer">
+                      <h3 class="card-title">Activities Monitoring and Fall Location Tracking for Geriatric Health Care.</h3>
+                    </div>
+                    <div class="about-info">
+                      <p><span class="title-s">Funder: </span> <span>Hibah RistekDikti</span></p>
+                      <p><span class="title-s">Fund  : </span> <span>Rp 57.770.000</span></p>
+                      <p><span class="title-s">Year : </span> <span>2021</span></p>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <div class="post-author">
+                      <a href="#">
+                        <img src="img/s.jpeg" alt="" class="avatar rounded-circle">
+                        <span class="author">Suto Setiyadi</span>
+                      </a>
+                    </div>
+                    <div class="post-date">
+                      <span class="ion-ios-clock-outline"></span> 20 Mei. 2024
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card card-blog">
+                  <div class="card-body1">
+                    <div class="card-footer">
+                      <h3 class="card-title">Pelatihan GeoGebra dalam Bidang Geometri untuk Guru dan Siswa SMP Negeri 14 Bandung.</h3>
+                    </div>
+                    <div class="about-info">
+                      <p><span class="title-s">Funder: </span> <span>Telkom University</span></p>
+                      <p><span class="title-s">Fund  : </span> <span>Rp 1.161.441.000</span></p>
+                      <p><span class="title-s">Year : </span> <span>2023</span></p>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <div class="post-author">
+                      <a href="#">
+                        <img src="img/s.jpeg" alt="" class="avatar rounded-circle">
+                        <span class="author">Suto Setiyadi</span>
+                      </a>
+                    </div>
+                    <div class="post-date">
+                      <span class="ion-ios-clock-outline"></span> 20 Mei. 2024
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
-      </div>
-      <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
     </div>
-  </footer><!-- End Footer -->
+  </section>
+  <!--/ Intro pengmas End /-->
 
+  <!--/ Section staf Star /-->
+  <section id="staf" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full1">
+            <div class="title-box-2">
+              <h3 class="title-a" style="color:rgb(255, 255, 255);">
+                STAF
+              </h3>
+              <p class="lead thick">
+                Berikut informasi staf CoE Biomedical & Healthcare Technology Telkom University:
+              </p>
+            </div>
+            <div class="row scroll">
+              <div class="col-md-4">
+                <div class="work-box">
+                  <a href="img/miftadisujai.jpg" data-lightbox="gallery-mf">
+                    <div class="work-img">
+                      <img src="img/miftadisujai.jpg" alt="" class="img-fluid">
+                    </div>
+                  </a>
+                  <div class="work-content">
+                    <div class="card-footer">
+                      <h2 class="w-title thick1">Ir. Miftadi Sudjai, M,Sc., Ph.D.</h2>
+                    </div>
+                    <h2 class="z-title">Riwayat Pendidikan<a class="w-like ion-ios-plus-outline" onclick="myFunction()"></a></h2>
+                    <div id="riwayat_pendidikan" style="display: none">
+                      <p>S1 Teknik Elektro Universitas Telkom</p>
+                      <p>S2 Teknik Elektro Universitas Telkom</p>
+                    </div>
+                    <script>
+                      function myFunction() {
+                        var x = document.getElementById("riwayat_pendidikan");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                    <h2 class="z-title">Bidang Keahlian<a class="w-like ion-ios-plus-outline" onclick="myFunction1()"></a></h2>
+                    <div id="bidang_keahlian" style="display: none">
+                      <p>Telemedicine Networks & Healthcare Apps.</p>
+                      <p>Techno-economic Analysis & Regulation of HealthTech.</p>
+                    </div>
+                    <script>
+                      function myFunction1() {
+                        var x = document.getElementById("bidang_keahlian");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                    <h2 class="z-title">Link Lainya<a class="w-like ion-ios-plus-outline" onclick="myFunction2()"></a></h2>
+                    <div id="link_lainya" style="display: none">
+                      <p><a href="https://www.linkedin.com/in/miftadi-sudjai-b7b494a1/?originalSubdomain=id">Linkedin</a></p>
+                      <p><a href="https://sinta.kemdikbud.go.id/authors/profile/6029321">Sinta</a></p>
+                    </div>
+                    <script>
+                      function myFunction2() {
+                        var x = document.getElementById("link_lainya");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-box">
+                  <a href="img/achmadrizal.png" data-lightbox="gallery-mf">
+                    <div class="work-img">
+                      <img src="img/achmadrizal.png" alt="" class="img-fluid">
+                    </div>
+                  </a>
+                  <div class="work-content">
+                    <div class="card-footer">
+                        <h1 class="w-title thick1">Prof. Achmad Rizal</h1>
+                    </div>
+                    <h2 class="z-title">Riwayat Pendidikan<a class="w-like ion-ios-plus-outline" onclick="myFunction3()"></a></h2>
+                    <div id="riwayat_pendidikan1" style="display: none">
+                      <p>S1 Teknik Elektro, STT Telkom</p>
+                      <P>S2 Teknik Elektro, ITB</p>
+                      <P>S3 Teknik Elektro, UGM</p>
+                    </div>
+                    <script>
+                      function myFunction3() {
+                        var x = document.getElementById("riwayat_pendidikan1");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                    <h2 class="z-title">Bidang Keahlian<a class="w-like ion-ios-plus-outline" onclick="myFunction4()"></a></h2>
+                    <div id="bidang_keahlian1" style="display: none">
+                      <p>Biomedical Instrumentations</p>
+                      <p>Medical Imaging & Image Processing</p>
+                      <p>Biomedical Signal Processing</p>
+                    </div>
+                    <script>
+                      function myFunction4() {
+                        var x = document.getElementById("bidang_keahlian1");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                    <h2 class="z-title">Link Lainya<a class="w-like ion-ios-plus-outline" onclick="myFunction5()"></a></h2>
+                    <div id="link_lainya1" style="display: none">
+                      <p><a href="https://www.linkedin.com/in/achmad-rizal-482207164/">Linkedin</a></p>
+                      <p><a href="https://sinta.kemdikbud.go.id/authors/profile/28599">Sinta</a></p>
+                    </div>
+                    <script>
+                      function myFunction5() {
+                        var x = document.getElementById("link_lainya1");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-box">
+                  <a href="img/wac.jpg" data-lightbox="gallery-mf">
+                    <div class="work-img">
+                      <img src="img/wac.jpg" alt="" class="img-fluid">
+                    </div>
+                  </a>
+                  <div class="work-content">
+                    <div class="card-footer">
+                      <h2 class="w-title thick1">Dr. Eng. Willy Anugrah Cahyadi, S.T., M.T.</h2>
+                    </div>
+                    <h2 class="z-title">Riwayat Pendidikan<a class="w-like ion-ios-plus-outline" onclick="myFunction6()"></a></h2>
+                    <div id="riwayat_pendidikan2" style="display: none">
+                      <p>S1 Teknik Elektro, ITB</p>
+                      <p>S2 Mikroelektronika, ITB</p>
+                      <p>S3 Information and Communications Engineering, Pukyong National University, Korea</p>
+                    </div>
+                    <script>
+                      function myFunction6() {
+                        var x = document.getElementById("riwayat_pendidikan2");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                    <h2 class="z-title">Bidang Keahlian<a class="w-like ion-ios-plus-outline" onclick="myFunction7()"></a></h2>
+                    <div id="bidang_keahlian2" style="display: none">
+                      <p>Biomedical Instrumentations</p>
+                      <p>Medical Imaging & Image Processing</p>
+                      <p>Social & Psychological Wellbeing of Ageing society and Disability</p>
+                    </div>
+                    <script>
+                      function myFunction7() {
+                        var x = document.getElementById("bidang_keahlian2");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                    <h2 class="z-title">Link Lainya<a class="w-like ion-ios-plus-outline" onclick="myFunction8()"></a></h2>
+                    <div id="link_lainya2" style="display: none">
+                      <p><a href="https://www.linkedin.com/in/willyac/?originalSubdomain=id">Linkedin</a></p>
+                      <p><a href="https://sinta.kemdikbud.go.id/authors/profile/6703963">Sinta</a></p>
+                    </div>
+                    <script>
+                      function myFunction8() {
+                        var x = document.getElementById("link_lainya2");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-box">
+                  <a href="img/mkh.jpg" data-lightbox="gallery-mf">
+                    <div class="work-img">
+                      <img src="img/mkh.jpg" alt="" class="img-fluid">
+                    </div>
+                  </a>
+                  <div class="work-content">
+                    <div class="card-footer">
+                      <h2 class="w-title thick1">Husneni Mukhtar, S.Si., M.T., Ph.D.</h2>
+                    </div>
+                    <h2 class="z-title">Riwayat Pendidikan<a class="w-like ion-ios-plus-outline" onclick="myFunction9()"></a></h2>
+                    <div id="riwayat_pendidikan3" style="display: none">
+                      <p>S1 Fisika, Universitas Padjajaran</p>
+                      <P>S2 Instrumentasi dan Kontrol, ITB</P>
+                      <p>S3 Electronics, Microelectronics, and Photonics; Université de Strasbourg, France</p>
+                    </div>
+                    <script>
+                      function myFunction9() {
+                        var x = document.getElementById("riwayat_pendidikan3");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                    <h2 class="z-title">Bidang Keahlian<a class="w-like ion-ios-plus-outline" onclick="myFunction10()"></a></h2>
+                    <div id="bidang_keahlian3" style="display: none">
+                      <p>Biomedical Instrumentations</p>
+                      <p>Medical Imaging & Image Processing</p>
+                      <p>Social & Psychological Wellbeing of Ageing society and Disability</p>
+                    </div>
+                    <script>
+                      function myFunction10() {
+                        var x = document.getElementById("bidang_keahlian3");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                    <h2 class="z-title">Link Lainya<a class="w-like ion-ios-plus-outline" onclick="myFunction11()"></a></h2>
+                    <div id="link_lainya3" style="display: none">
+                      <p><p><a href="https://www.linkedin.com/in/husneni-mukhtar-60a07144/?originalSubdomain=id">Linkedin</a></p>
+                      <p><a href="https://sinta.kemdikbud.go.id/authors/profile/6662847">Sinta</a></p></p>
+                    </div>
+                    <script>
+                      function myFunction11() {
+                        var x = document.getElementById("link_lainya3");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-box">
+                  <a href="img/hts.jpg" data-lightbox="gallery-mf">
+                    <div class="work-img">
+                      <img src="img/hts.jpg" alt="" class="img-fluid">
+                    </div>
+                  </a>
+                  <div class="work-content">
+                    <div class="card-footer">
+                      <h2 class="w-title thick1">Dr. Hesty Susanti, S.T., M.T.</h2>
+                    </div>
+                    <h2 class="z-title">Riwayat Pendidikan<a class="w-like ion-ios-plus-outline" onclick="myFunction12()"></a></h2>
+                    <div id="riwayat_pendidikan4" style="display: none">
+                      <p>S1 Teknik Elektro Universitas Telkom</p>
+                      <p>S2 Teknik Elektro Universitas Telkom</p>
+                    </div>
+                    <script>
+                      function myFunction12() {
+                        var x = document.getElementById("riwayat_pendidikan4");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                    <h2 class="z-title">Bidang Keahlian<a class="w-like ion-ios-plus-outline" onclick="myFunction13()"></a></h2>
+                    <div id="bidang_keahlian4" style="display: none">
+                      <p>Biomedical Instrumentations</p>
+                      <p>Medical Imaging & Image Processing</p>
+                      <p>Ultrasound Diagnostics</p>
+                    </div>
+                    <script>
+                      function myFunction13() {
+                        var x = document.getElementById("bidang_keahlian4");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                    <h2 class="z-title">Link Lainya<a class="w-like ion-ios-plus-outline" onclick="myFunction14()"></a></h2>
+                    <div id="link_lainya4" style="display: none">
+                      <p><p><a href="https://www.linkedin.com/in/hestysusanti/?originalSubdomain=id">Linkedin</a></p>
+                      <p><a href="https://sinta.kemdikbud.go.id/authors/profile/6774098">Sinta</a></p></p>
+                    </div>
+                    <script>
+                      function myFunction14() {
+                        var x = document.getElementById("link_lainya4");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-box">
+                  <a href="img/dus.jpg" data-lightbox="gallery-mf">
+                    <div class="work-img">
+                      <img src="img/dus.jpg" alt="" class="img-fluid">
+                    </div>
+                  </a>
+                  <div class="work-content">
+                    <div class="card-footer">
+                      <h2 class="w-title thick1">Dita Puspitasari, S.T., B.Sc., M.T.</h2>
+                    </div>
+                    <h2 class="z-title">Riwayat Pendidikan<a class="w-like ion-ios-plus-outline" onclick="myFunction15()"></a></h2>
+                    <div id="riwayat_pendidikan5" style="display: none">
+                      <p>S1 Teknik Mekatronika International University Liaison Indonesia</p>
+                      <p>S1 Mechatronics Technische Universität Ilmenau</p>
+                      <p>S2 Ilmu dan Teknik Material Institut Teknologi Bandung</p>
+                    </div>
+                    <script>
+                      function myFunction15() {
+                        var x = document.getElementById("riwayat_pendidikan5");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                    <h2 class="z-title">Bidang Keahlian<a class="w-like ion-ios-plus-outline" onclick="myFunction16()"></a></h2>
+                    <div id="bidang_keahlian5" style="display: none">
+                      <p>Medical Rehabilitation Engineering</p>
+                      <p>Ultrasound Diagnostics.</p>
+                    </div>
+                    <script>
+                      function myFunction16() {
+                        var x = document.getElementById("bidang_keahlian5");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                    <h2 class="z-title">Link Lainya<a class="w-like ion-ios-plus-outline" onclick="myFunction17()"></a></h2>
+                    <div id="link_lainya5" style="display: none">
+                      <p><a href="https://sinta.kemdikbud.go.id/authors/profile/6828595">Sinta</a></p></p>
+                    </div>
+                    <script>
+                      function myFunction17() {
+                        var x = document.getElementById("link_lainya5");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-box">
+                  <a href="img/sutosetiyadi.png" data-lightbox="gallery-mf">
+                    <div class="work-img">
+                      <img src="img/sutosetiyadi.png" alt="" class="img-fluid">
+                    </div>
+                  </a>
+                  <div class="work-content">
+                    <div class="card-footer">
+                      <h2 class="w-title thick1">Suto Setiyadi, S.T.,M.T.</h2>
+                    </div>
+                    <h2 class="z-title">Riwayat Pendidikan<a class="w-like ion-ios-plus-outline" onclick="myFunction18()"></a></h2>
+                    <div id="riwayat_pendidikan6" style="display: none">
+                      <p>S1 Teknik Elektro Universitas Telkom</p>
+                      <p>S2 Teknik Elektro Universitas Telkom</p>
+                    </div>
+                    <script>
+                      function myFunction18() {
+                        var x = document.getElementById("riwayat_pendidikan6");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                    <h2 class="z-title">Bidang Keahlian<a class="w-like ion-ios-plus-outline" onclick="myFunction19()"></a></h2>
+                    <div id="bidang_keahlian6" style="display: none">
+                      <p>Biomedical Instrumentations</p>
+                      <p>Medical Imaging & Image Processing</p>
+                      <p>Ultrasound Diagnostics</p>
+                    </div>
+                    <script>
+                      function myFunction19() {
+                        var x = document.getElementById("bidang_keahlian6");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                    <h2 class="z-title">Link Lainya<a class="w-like ion-ios-plus-outline" onclick="myFunction20()"></a></h2>
+                    <div id="link_lainya6" style="display: none">
+                      <p><p><a href="https://www.linkedin.com/in/suto-setiyadi-2a7336188/?originalSubdomain=id">Linkedin</a></p>
+                      <p><a href="https://sinta.kemdikbud.go.id/authors/profile/6878791">Sinta</a></p></p>
+                    </div>
+                    <script>
+                      function myFunction20() {
+                        var x = document.getElementById("link_lainya6");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-box">
+                  <a href="img/suksman.jpg" data-lightbox="gallery-mf">
+                    <div class="work-img">
+                      <img src="img/suksman.jpg" alt="" class="img-fluid">
+                    </div>
+                  </a>
+                  <div class="work-content">
+                    <div class="card-footer">
+                      <h2 class="w-title thick1">Suksmandhira Harimurti, S.T., M.Eng.</h2>
+                    </div>
+                    <h2 class="z-title">Riwayat Pendidikan<a class="w-like ion-ios-plus-outline" onclick="myFunction21()"></a></h2>
+                    <div id="riwayat_pendidikan7" style="display: none">
+                      <p>S1 Institut Teknologi Bandung</p>
+                      <p>S2 Institut Teknologi Bandung</p>
+                    </div>
+                    <script>
+                      function myFunction21() {
+                        var x = document.getElementById("riwayat_pendidikan7");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                    <h2 class="z-title">Bidang Keahlian<a class="w-like ion-ios-plus-outline" onclick="myFunction22()"></a></h2>
+                    <div id="bidang_keahlian7" style="display: none">
+                      <p>Biomedical Instrumentations</p>
+                    </div>
+                    <script>
+                      function myFunction22() {
+                        var x = document.getElementById("bidang_keahlian7");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                    <h2 class="z-title">Link Lainya<a class="w-like ion-ios-plus-outline" onclick="myFunction23()"></a></h2>
+                    <div id="link_lainya7" style="display: none">
+                      <p><p><a href="https://www.linkedin.com/in/sukmanh/?originalSubdomain=id">Linkedin</a></p>
+                      <p><a href="https://sinta.kemdikbud.go.id/authors/profile/6675436">Sinta</a></p></p>
+                    </div>
+                    <script>
+                      function myFunction23() {
+                        var x = document.getElementById("link_lainya7");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-box">
+                  <a href="img/putra.jpg" data-lightbox="gallery-mf">
+                    <div class="work-img">
+                      <img src="img/putra.jpg" alt="" class="img-fluid">
+                    </div>
+                  </a>
+                  <div class="work-content">
+                    <div class="card-footer">
+                      <h2 class="z-title thick1">M Darfyma Putra, S.T., M.T.</h2>
+                    </div>
+                    <h2 class="z-title">Riwayat Pendidikan<a class="w-like ion-ios-plus-outline" onclick="myFunction24()"></a></h2>
+                    <div id="riwayat_pendidikan8" style="display: none">
+                      <p>S1 Teknik Fisika Universitas Telkom</p>
+                      <p>S2 Teknik Instrumentasi dan Control Institut Teknologi Bandung</p>
+                    </div>
+                    <script>
+                      function myFunction24() {
+                        var x = document.getElementById("riwayat_pendidikan8");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                    <h2 class="z-title">Bidang Keahlian<a class="w-like ion-ios-plus-outline" onclick="myFunction25()"></a></h2>
+                    <div id="bidang_keahlian8" style="display: none">
+                      <p>Biomedical Instrumentations</p>
+                    </div>
+                    <script>
+                      function myFunction25() {
+                        var x = document.getElementById("bidang_keahlian8");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                    <h2 class="z-title">Link Lainya<a class="w-like ion-ios-plus-outline" onclick="myFunction26()"></a></h2>
+                    <div id="link_lainya8" style="display: none">
+                      <p><p><a href="https://www.linkedin.com/in/m-darfyma-putra-542949213/?originalSubdomain=id">Linkedin</a></p>
+                      <p><a href="https://sinta.kemdikbud.go.id/authors/profile/6862505">Sinta</a></p></p>
+                    </div>
+                    <script>
+                      function myFunction26() {
+                        var x = document.getElementById("link_lainya8");
+                        if (x.style.display === "none" || !x.style.display) {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Intro staf End /-->
+
+  <!--/ Section Contact-Footer Star /-->
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-mf">
+            <div id="contact" class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h5 class="title-left" style="color:rgba(0, 120.00000044703484, 255, 1);">
+                      More Information
+                    </h5>
+                  </div>
+                  <div class="more-info">
+                    <p class="lead">
+                      Silahkan kunjungi akun IG untuk informasi tambahan mengenai kami, atau hubungi contact person dan email kami dibawah ini:
+                    </p>
+                    <ul class="list-ico">
+                      <li><span class="ion-ios-location"></span> Jl. Telekomunikasi. 1, Terusan Buahbatu - Bojongsoang, Telkom University, Sukapura, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat 40257</li>
+                      <li><span class="ion-ios-telephone"></span> 0822-9597-7713</li>
+                      <li><span class="ion-email"></span> coe.bht@gmail.com</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <div class="socials">
+                        <ul>
+                          <li><a href="https://www.instagram.com/coe.bht/"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
+                          <li><a href="http://wa.me/6282295977713"><span class="ico-circle"><i class="ion-social-whatsapp"></i></span></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="copyright-box">
+              <p>Center of Excellence Biomedical & Healthcare Technology</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!--/ Section Contact-footer End /-->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="lib/counterup/jquery.counterup.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
 
 </body>
-
 </html>
